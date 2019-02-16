@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 8307-rescue)(type Legacy)(uri ${KIPRJMOD}/8307-rescue.lib)(options "")(descr ""))
+  (lib (name 8307)(type Legacy)(uri /Users/tom/Documents/KiCAD/8307/8307.lib)(options "")(descr ""))
+)
