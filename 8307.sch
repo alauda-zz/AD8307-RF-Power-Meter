@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "AD8307 RF Power Meter"
+Date "2019-02-17"
+Rev "1.0"
+Comp "YO3ITI - Alauda Projects"
+Comment1 "AD8307 RF Power Sensor Prototype"
 Comment2 ""
 Comment3 ""
 Comment4 ""
