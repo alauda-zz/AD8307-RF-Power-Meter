@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.1-3-g963ef8bb5)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.2-5)-5")
 
   (general
     (thickness 1.6)
@@ -68,7 +68,7 @@
     (pad_to_mask_clearance 0.2)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 21.59 72.39)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x3f0f0_ffffffff)
       (usegerberextensions false)
@@ -154,7 +154,7 @@
     (add_net "Net-(R2-Pad1)")
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B8B0734) (tstamp 5BA2BB3B)
+  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5C6D63B8) (tstamp 5BA2BB3B)
     (at 48.768 57.404 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -163,8 +163,8 @@
     (fp_text reference C1 (at 0.889 1.397 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 15p (at 0 1.43 270) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 15p (at 0 1.397 270) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
@@ -190,17 +190,17 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B8B0691) (tstamp 5B9090D5)
+  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5C6D638E) (tstamp 5B9090D5)
     (at 43.18 56.007 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5B8580F9)
     (attr smd)
-    (fp_text reference C5 (at 0.127 1.397 270) (layer F.SilkS)
+    (fp_text reference C5 (at -1.143 1.397 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 270) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 10n (at -0.254 1.397 270) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
@@ -226,7 +226,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B8B0672) (tstamp 5B9090C7)
+  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5C6D6367) (tstamp 5B9090C7)
     (at 40.259 54.737 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -235,8 +235,8 @@
     (fp_text reference C2 (at 0.127 1.524 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 0 1.43 270) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 10n (at 0 1.524 270) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
@@ -262,7 +262,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B8B05DA) (tstamp 5BA2BB81)
+  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5C6D643C) (tstamp 5BA2BB81)
     (at 55.118 51.054)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -271,8 +271,8 @@
     (fp_text reference C7 (at 2.667 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 0 1.43) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 1n (at 0 1.524) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
@@ -298,7 +298,7 @@
     )
   )
 
-  (module TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm (layer F.Cu) (tedit 5B8B074E) (tstamp 5BA2B826)
+  (module TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm (layer F.Cu) (tedit 5C6D6588) (tstamp 5BA2B826)
     (at 44.704 46.355)
     (descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
     (tags "test point THT pad")
@@ -307,19 +307,19 @@
     (fp_text reference TP4 (at -2.667 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 1.55) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value TestPoint (at 22.225 1.524) (layer F.Fab) hide
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0 0.7) (layer F.SilkS) (width 0.12))
     (fp_circle (center 0 0) (end 1 0) (layer F.CrtYd) (width 0.05))
     (fp_text user %R (at 0 -1.45) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask)
       (net 5 "Net-(C4-Pad1)"))
   )
 
-  (module TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm (layer F.Cu) (tedit 5B8B0753) (tstamp 5BA2B81E)
+  (module TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm (layer F.Cu) (tedit 5C6D658E) (tstamp 5BA2B81E)
     (at 50.8 46.228)
     (descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
     (tags "test point THT pad")
@@ -328,11 +328,11 @@
     (fp_text reference TP3 (at 2.413 -0.127) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 1.55) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value TestPoint (at 16.129 0.127) (layer F.Fab) hide
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.45) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 1 0) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 0 0.7) (layer F.SilkS) (width 0.12))
@@ -340,7 +340,7 @@
       (net 18 "Net-(C7-Pad1)"))
   )
 
-  (module TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm (layer F.Cu) (tedit 5B8B05FE) (tstamp 5BA2B816)
+  (module TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm (layer F.Cu) (tedit 5C6D659F) (tstamp 5BA2B816)
     (at 36.576 55.245)
     (descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
     (tags "test point THT pad")
@@ -349,19 +349,19 @@
     (fp_text reference TP2 (at 0.127 2.032) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 1.55) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value TestPoint (at 30.353 0) (layer F.Fab) hide
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0 0.7) (layer F.SilkS) (width 0.12))
     (fp_circle (center 0 0) (end 1 0) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 -1.45) (layer F.Fab)
+    (fp_text user %R (at -0.127 1.905) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask)
       (net 6 "Net-(C2-Pad1)"))
   )
 
-  (module TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm (layer F.Cu) (tedit 5B8B0793) (tstamp 5BA2B80E)
+  (module TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm (layer F.Cu) (tedit 5C6D655F) (tstamp 5BA2B80E)
     (at 49.657 60.198)
     (descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
     (tags "test point THT pad")
@@ -370,11 +370,11 @@
     (fp_text reference TP1 (at -2.032 0.889) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 1.55) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value TestPoint (at 17.272 1.397) (layer F.Fab) hide
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.45) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text user %R (at 0 1.651) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 1 0) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 0 0.7) (layer F.SilkS) (width 0.12))
@@ -382,7 +382,7 @@
       (net 8 "Net-(C1-Pad2)"))
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B8B058B) (tstamp 5B971E23)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5C6D6445) (tstamp 5B971E23)
     (at 55.245 48.895 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -391,8 +391,8 @@
     (fp_text reference R8 (at 0.508 1.397 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 220 (at 0 1.43 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 220 (at 0 1.524 180) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
@@ -418,7 +418,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B8B05F3) (tstamp 5B971E13)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5C6D63F8) (tstamp 5B971E13)
     (at 56.0832 59.3852)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -427,8 +427,8 @@
     (fp_text reference R7 (at 2.8448 -0.0762) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 110 (at 0 1.43) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 110 (at 0.0508 1.4478) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -454,17 +454,17 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B8B05DE) (tstamp 5B971E03)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5C6D6451) (tstamp 5B971E03)
     (at 55.626 56.261 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5B8571E2)
     (attr smd)
-    (fp_text reference R6 (at 0.508 -1.778 90) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference R6 (at 0.635 -1.27 90) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
-    (fp_text value 22 (at 0 1.43 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 22 (at 0.127 -1.27 90) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
@@ -490,7 +490,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B8B05E7) (tstamp 5B971DF3)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5C6D63D2) (tstamp 5B971DF3)
     (at 50.927 56.515 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -499,8 +499,8 @@
     (fp_text reference R5 (at 1.651 -1.524 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 470 (at 0 1.43 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 470 (at 0.381 1.397 90) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -526,7 +526,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B8B05E1) (tstamp 5B971DE3)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5C6D6415) (tstamp 5B971DE3)
     (at 58.039 54.864 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -535,8 +535,8 @@
     (fp_text reference R4 (at 1.397 -1.778 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 53 (at 0 1.43 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 53 (at 0.254 1.524 90) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
@@ -562,17 +562,17 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B8B0613) (tstamp 5B971DD3)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5C6D6387) (tstamp 5B971DD3)
     (at 41.275 49.784 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5B84798C)
     (attr smd)
-    (fp_text reference R3 (at 0.127 1.524 270) (layer F.SilkS)
+    (fp_text reference R3 (at -2.794 -1.016 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 61 (at 0 1.43 270) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 61 (at 0 1.397 270) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -598,7 +598,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B8B061F) (tstamp 5B971DC3)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5C6D637F) (tstamp 5B971DC3)
     (at 37.1856 48.3616 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -607,8 +607,8 @@
     (fp_text reference R2 (at 0.8636 1.4986 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 248 (at 0 1.43 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 248 (at -0.0254 1.4986 180) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
@@ -634,7 +634,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B8B0610) (tstamp 5B971DB3)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5C6D636E) (tstamp 5B971DB3)
     (at 37.2364 51.5112)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -643,8 +643,8 @@
     (fp_text reference R1 (at -0.7874 -1.4732) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 61 (at 0 1.43) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 61 (at -0.0254 -1.4732) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -670,7 +670,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B8B05F0) (tstamp 5B971BB9)
+  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5C6D63E9) (tstamp 5C6D72A5)
     (at 53.1876 58.5724 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -679,8 +679,8 @@
     (fp_text reference C6 (at 0.7366 1.4986 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43 270) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 100n (at 1.1176 1.2446 270) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -706,17 +706,17 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B8B026E) (tstamp 5B971BA9)
+  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5C6D639E) (tstamp 5B971BA9)
     (at 46.228 56.007 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5B8580AC)
     (attr smd)
-    (fp_text reference C4 (at 0.127 1.397 270) (layer F.SilkS)
+    (fp_text reference C4 (at -1.397 1.397 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43 270) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 100n (at 0 1.397 270) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
@@ -742,7 +742,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B8B05D7) (tstamp 5B971B99)
+  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5C6D6427) (tstamp 5B971B99)
     (at 52.1208 52.7812 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -751,8 +751,8 @@
     (fp_text reference C3 (at -0.1778 1.6002 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.43 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 100n (at 3.2512 -0.0508 90) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -778,7 +778,7 @@
     )
   )
 
-  (module Connector_JST:JST_ACH_BBM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical (layer F.Cu) (tedit 5B85770E) (tstamp 5BAA4EEF)
+  (module Connector_JST:JST_ACH_BBM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical (layer F.Cu) (tedit 5C6D6498) (tstamp 5BAA4EEF)
     (at 25.019 63.246 270)
     (descr "JST ACH series connector, BBM02B-ACHSS-GAN-ETF (http://www.jst-mfg.com/product/pdf/eng/eACH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST ACH side entry")
@@ -787,8 +787,8 @@
     (fp_text reference J3 (at -1.905 -3.683 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x02_Female (at 0 3.5 270) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value Conn_01x02_Female (at 0.127 4.699 270) (layer F.Fab) hide
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start -2.1 -2) (end 2.1 -2) (layer F.Fab) (width 0.1))
     (fp_line (start -2.21 1.24) (end -2.21 -2.11) (layer F.SilkS) (width 0.12))
@@ -833,7 +833,7 @@
     )
   )
 
-  (module RF_Shielding:Laird_Technologies_BMI-S-209-F_29.36x18.50mm locked (layer F.Cu) (tedit 5B8B0B2F) (tstamp 5BAAA6FE)
+  (module RF_Shielding:Laird_Technologies_BMI-S-209-F_29.36x18.50mm locked (layer F.Cu) (tedit 5C6D6712) (tstamp 5BAAA6FE)
     (at 47.752 53.467)
     (descr "Laird Technologies BMI-S-209-F Shielding Cabinet Two Piece SMD 29.36x18.50mm")
     (tags "Shielding Cabinet")
@@ -843,7 +843,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RF_Shield_One_Piece (at 0 10.65) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start 14.83 2.2) (end 14.83 3.8) (layer F.SilkS) (width 0.15))
     (fp_line (start -14.83 2.2) (end -14.83 3.8) (layer F.SilkS) (width 0.15))
@@ -964,7 +964,7 @@
     )
   )
 
-  (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B8575A3) (tstamp 5BAA5033)
+  (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5C6D6472) (tstamp 5BAA5033)
     (at 44.704 68.961)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
@@ -973,8 +973,8 @@
     (fp_text reference C9 (at 3.1115 1.905) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 22u (at 0 2.7) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 22u (at 3.302 0.762) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.6 0.6) (thickness 0.09)))
@@ -1074,7 +1074,7 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5B858725) (tstamp 5BAA4ECB)
+  (module Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5C6D6463) (tstamp 5BAA4ECB)
     (at 50.292 65.024 180)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
@@ -1082,8 +1082,8 @@
     (fp_text reference D1 (at 2.032 -2.12 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 3.81 2.12 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value 1N4148 (at 3.937 -1.651 180) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start 1.81 -1) (end 1.81 1) (layer F.Fab) (width 0.1))
     (fp_line (start 1.81 1) (end 5.81 1) (layer F.Fab) (width 0.1))
@@ -1282,7 +1282,7 @@
     )
   )
 
-  (module Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B8B060C) (tstamp 5B909015)
+  (module Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5C6D63AE) (tstamp 5B909015)
     (at 43.561 59.817 180)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
@@ -1291,7 +1291,7 @@
     (fp_text reference L1 (at 3.556 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 7nH (at 3.81 -0.635 180) (layer F.Fab) hide
+    (fp_text value 7nH (at 0 -2.032 180) (layer F.Fab)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
@@ -1318,7 +1318,7 @@
     )
   )
 
-  (module Package_TO_SOT_SMD:SOT-223 (layer F.Cu) (tedit 5B857712) (tstamp 5B908F5C)
+  (module Package_TO_SOT_SMD:SOT-223 (layer F.Cu) (tedit 5C6D6480) (tstamp 5B908F5C)
     (at 36.83 68.072)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
@@ -1327,8 +1327,8 @@
     (fp_text reference U3 (at 3.175 -2.8575) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LT1117-5.0 (at 0 4.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value LT1117-5.0 (at 0.127 -4.064) (layer F.Fab)
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 2 2) (thickness 0.12)))
@@ -1360,17 +1360,17 @@
     )
   )
 
-  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5B85765F) (tstamp 5B8459D9)
+  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5C6D657F) (tstamp 5B8459D9)
     (at 46.736 50.927 180)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5B844F04)
     (attr smd)
-    (fp_text reference U2 (at -1.143 3.683 180) (layer F.SilkS)
+    (fp_text reference U2 (at -0.254 3.683 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value AD8307 (at 0 3.5 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value AD8307 (at -0.127 9.271 180) (layer F.Fab) hide
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1414,7 +1414,7 @@
     )
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 5C48A2F7) (tstamp 5BA30449)
+  (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 5C6D6492) (tstamp 5BA30449)
     (at 25.273 68.961)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1423,7 +1423,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad_Via (at 0 3.2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
@@ -1597,7 +1597,7 @@
   (segment (start 49.436 47.592) (end 49.436 49.022) (width 0.25) (layer F.Cu) (net 18))
   (segment (start 50.8 46.228) (end 49.436 47.592) (width 0.25) (layer F.Cu) (net 18))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C6889A3) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C6D7BF4) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1759,7 +1759,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C6889A0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C6D7BF1) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
